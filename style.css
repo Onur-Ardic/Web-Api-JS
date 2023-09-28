@@ -1,0 +1,83 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Poppins:ital,wght@1,100&display=swap");
+
+/*Fonts family
+
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-wrapper #form #searchInput {
+  width: 700px;
+  padding: 0.3rem;
+  margin: 1rem;
+  border-radius: 7px;
+  border: 0.2px solid black;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button-wrapper #searchButton {
+  display: block;
+  width: 110px;
+  padding: 0.3rem;
+  background: none;
+  border: 1px solid #000;
+  font-family: "Josefin Sans", sans-serif;
+  color: #000;
+  border-radius: 6px;
+}
+
+.button-wrapper #searchButton:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.button-wrapper #clearButton {
+  display: block;
+  width: 110px;
+  padding: 0.3rem;
+  background: none;
+  border: 1px solid #000;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  border-radius: 6px;
+  background-color: #000;
+}
+
+.button-wrapper #clearButton:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#image-wrapper {
+  display: flex;
+  gap: 0.4rem;
+  margin: 5rem 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#image-wrapper img {
+  border-radius: 10px;
+}
